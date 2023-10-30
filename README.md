@@ -9,7 +9,7 @@
 
     - **Commands –** The operations that change the application state and return no data. These are the methods that have side effects within the application. 
 
-      ![image](Images/b674dda5-8329-463b-a39b-272c71ea645b)
+      ![image](/Images/b674dda5-8329-463b-a39b-272c71ea645b)
 
 ## Advantages of CQRS
 
@@ -22,7 +22,7 @@
 
  - **Handler/Command Handler :** This handler handle the commande request and save it to database. It is basically used for creating or writing into DB.
    
-   ![image](images/96da1e83-16fc-43d7-9b6f-e02ad8647d82)
+   ![image](/Images/96da1e83-16fc-43d7-9b6f-e02ad8647d82)
 
  - **Handler/ Query Handler :** This handler handle the query request base on the request return the data from the database. It is basically used for reading/fetching from DB.
 
@@ -30,9 +30,9 @@
 
  - **Command Request and Query Request**
 
-    ![image](images/05c5ba98-05ce-4af6-be5a-1e4b92b5da23)
+    ![image](/Images/05c5ba98-05ce-4af6-be5a-1e4b92b5da23)
 
-    ![image](images/98ecad7b-80ad-4d3b-aa72-7a8ab659e113)
+    ![image](/Images/98ecad7b-80ad-4d3b-aa72-7a8ab659e113)
 
 
 
@@ -46,9 +46,9 @@
 
    - Register the MediatR handler
 
-     ![image](images/a154dcb1-0e36-422f-9678-a39d4cdf9485)
+     ![image](/Images/a154dcb1-0e36-422f-9678-a39d4cdf9485)
 
    - Use ISender interface to sent the request to appropriate handler
 
-     ![image](images/c7d15078-32dd-4ea0-a774-9f9b7fad0945)
+     ![image](/Images/c7d15078-32dd-4ea0-a774-9f9b7fad0945)
 
