@@ -9,7 +9,7 @@
 
     - **Commands –** The operations that change the application state and return no data. These are the methods that have side effects within the application. 
 
-      ![image](images/b674dda5-8329-463b-a39b-272c71ea645b)
+      ![image](Images/b674dda5-8329-463b-a39b-272c71ea645b)
 
 ## Advantages of CQRS
 
@@ -26,7 +26,7 @@
 
  - **Handler/ Query Handler :** This handler handle the query request base on the request return the data from the database. It is basically used for reading/fetching from DB.
 
-     ![image](images/b692d67f-236e-4e9f-ac54-f4ac3b6de3b7)
+     ![image](/Images/b692d67f-236e-4e9f-ac54-f4ac3b6de3b7.png)
 
  - **Command Request and Query Request**
 
